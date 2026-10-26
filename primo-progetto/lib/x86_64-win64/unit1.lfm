@@ -1,0 +1,48 @@
+object Form1: TForm1
+  Left = 346
+  Height = 240
+  Top = 145
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '4.8.0.0'
+  object Button1: TButton
+    Left = 112
+    Height = 25
+    Top = 200
+    Width = 75
+    Caption = 'indovina'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Edit1: TEdit
+    Left = 112
+    Height = 23
+    Top = 24
+    Width = 80
+    TabOrder = 1
+  end
+  object Memo1: TMemo
+    Left = 80
+    Height = 114
+    Top = 56
+    Width = 150
+    ScrollBars = ssAutoBoth
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 106
+    Height = 15
+    Top = 8
+    Width = 90
+    Caption = 'metti iunnumero'
+  end
+  object Label2: TLabel
+    Left = 80
+    Height = 15
+    Top = 176
+    Width = 149
+    Caption = 'indovina il numero del dado'
+  end
+end
